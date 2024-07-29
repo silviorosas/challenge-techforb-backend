@@ -21,14 +21,14 @@ public class ChallengeTechforbBackendApplication {
 	}
 
 
-	/* @Bean
+	@Bean
 	public CommandLineRunner crearUsuario(UsuarioService usuarioService) {
 		return args -> {
 			UserDTO userDto = new UserDTO();
-			userDto.setNombre("Pedro");
-			userDto.setApellido("Navaja");
-			userDto.setEmail("pe@email.com");
-			userDto.setPassword("123456");
+			userDto.setNombre("User");
+			userDto.setApellido("Prueba");
+			userDto.setEmail("up@email.com");
+			userDto.setPassword("1234");
 
 			try {
 				Usuario usuario = usuarioService.registerUsuario(userDto);
@@ -38,6 +38,6 @@ public class ChallengeTechforbBackendApplication {
 			}
 		};
 	}
- */
+ 
 
 }
