@@ -18,7 +18,8 @@ import java.util.Map;
 @RestController
 @Validated
 @RequestMapping("/api/plantas")
-@CrossOrigin(origins = "http://localhost:4200")
+//@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://techforb.netlify.app")
 public class PlantaController {
 
     private final PlantaService plantaService;
