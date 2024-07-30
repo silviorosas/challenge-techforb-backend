@@ -21,7 +21,7 @@ public class ChallengeTechforbBackendApplication {
 	}
 
 
-	@Bean
+	/*@Bean
 	public CommandLineRunner crearUsuario(UsuarioService usuarioService) {
 		return args -> {
 			UserDTO userDto = new UserDTO();
@@ -37,7 +37,7 @@ public class ChallengeTechforbBackendApplication {
 				System.out.println("Error al crear el usuario: " + e.getMessage());
 			}
 		};
-	}
+	}*/
  
 
 }
